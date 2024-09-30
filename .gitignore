@@ -1,0 +1,28 @@
+# Ignorar arquivos de build do Node.js
+node_modules/
+package-lock.json
+
+# Ignorar relatórios de testes do Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+cypress/results/
+
+# Ignorar arquivos de configuração do ambiente local
+.env
+.env.local
+.env.*.local
+
+# Ignorar logs e cache do Cypress
+cypress/logs/
+cypress/cache/
+
+# Ignorar relatórios de cobertura de código
+coverage/
+
+# Ignorar arquivos de lock do Yarn (caso use Yarn)
+yarn.lock
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
